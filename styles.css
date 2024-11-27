@@ -135,3 +135,26 @@ button{
 button:hover{
     background: rgb(146, 141, 139);
 }
+
+.youtube-video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.youtube-video-container {
+    max-width: 800px;
+    width: 90%;
+    aspect-ratio: 16/9;
+    border: 4px solid #9e0000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.youtube-video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
